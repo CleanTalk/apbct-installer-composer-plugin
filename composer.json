@@ -1,0 +1,25 @@
+{
+  "name": "cleantalk-apbct/installer",
+  "description": "Plugin for custom installing CleanTalk lib",
+  "type": "composer-plugin",
+  "authors": [
+    {
+      "name": "CleanTalk Team",
+      "email": "support@cleantalk.org"
+    }
+  ],
+  "require": {
+    "composer-plugin-api": "*"
+  },
+  "require-dev": {
+    "composer/composer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CleantalkApbct\\Installer\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "CleantalkApbct\\Installer\\Plugin"
+  }
+}
