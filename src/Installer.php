@@ -1,6 +1,6 @@
 <?php
 
-namespace CleantalkApbct\Installer;
+namespace Cleantalk\ApbctInstaller;
 
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;

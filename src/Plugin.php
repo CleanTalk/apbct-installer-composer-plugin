@@ -1,6 +1,6 @@
 <?php
 
-namespace CleantalkApbct\Installer;
+namespace Cleantalk\ApbctInstaller;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;

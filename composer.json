@@ -1,5 +1,5 @@
 {
-  "name": "cleantalk/installer",
+  "name": "cleantalk/apbct-installer",
   "description": "Plugin for custom installing CleanTalk lib",
   "type": "composer-plugin",
   "authors": [
@@ -17,10 +17,10 @@
   },
   "autoload": {
     "psr-4": {
-      "Cleantalk\\Installer\\": "src/"
+      "Cleantalk\\ApbctInstaller\\": "src/"
     }
   },
   "extra": {
-    "class": "Cleantalk\\Installer\\Plugin"
+    "class": "Cleantalk\\ApbctInstaller\\Plugin"
   }
 }
