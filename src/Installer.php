@@ -20,7 +20,8 @@ class Installer extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        return "lib/Cleantalk/Common";
+        $name = explode('/', $package->getName());
+        return "lib/Cleantalk/Common/" . end($name);
     }
 
 }
